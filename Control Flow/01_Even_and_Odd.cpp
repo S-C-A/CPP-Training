@@ -15,9 +15,4 @@ int main(){
     {
         cout << a << " is an odd number";
     }
-    
-    
-
-
-
 }

@@ -9,7 +9,7 @@ public:
         sweetness = sugar;
     }
 
-    void eat(){
+    virtual void eat(){
         if (sweetness > 10)
             cout << "The candy was so sweet that it put you in a sugar coma!";
         else if (sweetness > 5)
@@ -27,7 +27,7 @@ public:
         fruit = flavor;
     }
 
-    void eat() {
+    void eat() override {
         candy::eat(); 
         cout << " It tasted like " << fruit << "." << endl; 
     }

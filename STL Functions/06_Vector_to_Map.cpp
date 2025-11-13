@@ -17,8 +17,4 @@ int main(){
     for (auto n : mymap){
         cout << n.first << " " << n.second << endl;
     }
-    
-
- 
-
 }

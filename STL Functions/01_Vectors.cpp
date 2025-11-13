@@ -44,5 +44,9 @@ int main(){
     cout << "After sort: ";
     for (int n : test) cout << n << " ";    
     cout << "\n";
+
+    cout << test.front() << endl;
+    cout << test.back();
     
+    return 0;
 }  

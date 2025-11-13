@@ -9,7 +9,7 @@ pair<int, int> minmax(int a, int b) {
 int main() {
 
     pair<int,int> p1 = {1,9};
-    pair<int,int> p2 = {1,5};
+    pair<int,int> p2 = {2,5};
 
     cout << p1.first << " " << p2.second << endl; 
 

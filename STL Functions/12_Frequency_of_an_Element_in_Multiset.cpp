@@ -1,6 +1,3 @@
-// C++ Program to find the frequency of a specific Element
-// in a Multiset in C++ STL
-
 #include <iostream>
 #include <set>
 using namespace std;
